@@ -68,7 +68,7 @@ font-size: 18px;
 
 }
 /* main section */
- main{
+ main , footer{
   max-width: 1140px;
   margin: 0 auto;
 }
@@ -167,4 +167,37 @@ margin-bottom: 20px;
 .cv-btn{
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 80px;
+}
+/* footeer section */
+.footer-container{
+    display: flex;
+    gap: 120px;
+    padding: 100px 100px;
+    background: #FFF8F3;
+}
+.connect h2{
+    text-align: left;
+}
+.icon-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+#name-input , #email-input{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 20px;
+    border-radius:5px;
+    border: 0;
+}
+#info-description{
+    width: 300px;
+height: 250px;
+display: block;
+border: 0;
+margin-bottom: 10px;
+}
+.footer-des{
+    color: #474747;
 }
