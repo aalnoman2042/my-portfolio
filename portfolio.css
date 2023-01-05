@@ -39,7 +39,7 @@ nav li{
     border: 0;
     padding: 18px 35px;
     
-    height: 64px;
+    height: 55px;
     background-color: #FD6E0A;
 }
 /* banner section */
@@ -85,14 +85,15 @@ font-size: 18px;
    
     font-weight: 700;
 font-size: 35px;
-    margin-bottom: 30px;
-
+    margin-bottom: 50px;
+    text-align: center;
+ margin-top: 50px;
 
 }
 .section-discription{
     color: #757575;
     font-size: 18px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 .about-info-container{
     display: flex;
@@ -110,7 +111,7 @@ font-size: 35px;
 }
 /* what i do section */
 .what-i-do{
-  margin-top: 150px;
+  /* margin-top: 50px; */
   text-align: center;
 }
 .skil{
@@ -133,4 +134,37 @@ padding: 30;
 }
 .skill-des{
     color: #757575;
+}
+/* resume style */
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.edu-item-subtitle , .exp-item-subtitle{
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.edu-item-title , .exp-item-title{
+    font-weight: 700;
+font-size: 25px;
+margin-bottom: 10px;
+
+}
+.edu-des{
+    font-weight: 400;
+font-size: 16px;
+color: #757575;
+margin-bottom: 20px;
+}
+.edu-title{
+    margin-bottom: 15px;
+}
+.exp-title{
+    margin-bottom: 15px;
+}
+.cv-btn{
+    text-align: center;
+    margin-top: 40px;
 }
